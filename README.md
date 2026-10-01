@@ -16,7 +16,7 @@ Once the 6, 5, and 4 are banked, the sum of the remaining two dice represents th
 ## Project Structure
 The game is structured using modular classes:
 * **`Die`**: Simulates a standard 6-sided die with randomized rolling mechanics.
-* **`DiceCup`**: Manages a collection of 5 `Die` instances. It handles banking (saving) specific dice indices and re-rolling the unbanked ones.
+* **`Dice_Cup`**: Manages a collection of 5 `Die` instances. It handles banking (saving) specific dice indices and re-rolling the unbanked ones.
 * **`ShipOfFoolsGame`**: Contains the core logic for a single round of the game, including the conditional rules for banking the 6, 5, and 4.
 * **`Player`**: Represents a game participant, tracking their real name and total accumulated score.
 * **`PlayRoom`**: The main game controller. It adds players, manages the game loop, tracks rounds, prints scores, and determines the winner.
@@ -28,4 +28,4 @@ The game is structured using modular classes:
    ```bash
    python ship_of_fools.py
    ```
-4. By default, the script will simulate a game between two players ("vamsi" and "krishna") and output the live rolls, banked statuses, running scores, and the final winner directly in the console.
+4. By default, the script will simulate a game between two players ("Sri" and "Dileep") and output the live rolls, banked statuses, running scores, and the final winner directly in the console.
